@@ -1,0 +1,110 @@
+nav {
+    font-size: 30px;
+    margin: 10px 0 10px 30px;
+    cursor: pointer;
+}
+
+.navsec {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translate(-100%, 0);
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 70px 0;
+    height: 100vh;
+    transition: 1s;
+    z-index: 100;
+}
+
+.opennavv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translate(0, 0);
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 70px 0;
+    height: 100vh;
+    transition: 1s;
+    z-index: 100;
+
+
+}
+
+.sec1 article h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Courgette', cursive;
+}
+
+.sec1 article .closeicon i {
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.sec1 article .navlink {
+    margin: 70px 0 100px;
+}
+
+.sec1 article .navlink li {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.sec1 article .navlink li a {
+    color: rgb(90, 82, 82);
+}
+
+.sec1 article .navlink li a:hover {
+    color: #AC6B34;
+}
+
+.sec1 article .navlink .active {
+    color: #ba641d;
+}
+
+.sec1 article .social li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.sec1 article .social li a {
+    color: #000;
+}
+
+.sec1 article .social li a:hover {
+    color: #ba641d;
+}
+
+.sec1 article .footer {
+    margin-top: 30px;
+    color: rgb(168, 167, 167);
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .navsec {
+        width: 25%;
+        transform: translate(0, 0);
+    }
+
+    .navsec .closeicon 
+    {
+        display: none;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+}

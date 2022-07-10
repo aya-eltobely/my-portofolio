@@ -1,0 +1,97 @@
+.contactsec
+{
+    padding: 30px 0;
+}
+.contactsec section h1
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.contactsec section article figure p
+{
+    margin-bottom: 20px;
+    color: rgb(142, 142, 142);
+    font-size: 18px;
+}
+.contactsec section article figure p a
+{
+    color: rgb(142, 142, 142);
+}
+.contactsec section article figure p span
+{
+    color: initial;
+    margin-right: 20px;
+}
+.contactsec section article form
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.contactsec section article form input:not(.contactsec section article form input[type='submit']),
+.contactsec section article form textarea
+{
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+}
+.contactsec section article form input[type='submit']
+{
+    width: 200px;
+    padding: 20px 0;
+    font-size: 16px;
+    outline: none;
+    background-color: #AC6B34;
+    color: #FFF;
+    border: 2px solid #AC6B34;
+    margin-top: 20px;
+}
+.contactsec section article form input[type='submit']:hover
+{
+    background-color: transparent;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .contactsec {
+        position: relative;
+    top: 0;
+    left: 25%;
+    width: 75%;
+    padding: 50px;
+
+    }
+
+    .contactsec section article
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contactsec section article figure
+    {
+        margin: 0;
+        width: 35%;
+    }
+    .contactsec section article form
+    {
+        width: 60%;
+        margin: 0;
+
+    }
+}
